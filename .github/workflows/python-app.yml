@@ -28,4 +28,4 @@ jobs:
         python -m pip install --upgrade pip
     - name: build
       run: |
-        pip install --upgrade edk2-basetools
+        pip install --upgrade ${{github.workspace}}
